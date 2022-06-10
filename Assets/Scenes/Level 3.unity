@@ -1966,7 +1966,7 @@ RectTransform:
   - {fileID: 1317334762}
   - {fileID: 1186727601}
   m_Father: {fileID: 914759636}
-  m_RootOrder: 22
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -2139,7 +2139,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 600037313}
   agroRange: 10
-  moveSpeed: 2
+  moveSpeed: 4
   character: {fileID: 600037316}
   deathEffect: {fileID: 1599559370}
   boomEffect: {fileID: 91809924}
@@ -8040,7 +8040,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 914759636}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
@@ -18266,7 +18266,7 @@ RectTransform:
   - {fileID: 1304333719}
   - {fileID: 887368332}
   m_Father: {fileID: 914759636}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -19058,7 +19058,7 @@ MonoBehaviour:
   m_Follow: {fileID: 600037313}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 5
+    OrthographicSize: 7
     NearClipPlane: 0.1
     FarClipPlane: 5000
     Dutch: 0
@@ -19082,7 +19082,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 720371134}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.92, y: 0.009999871, z: -10}
+  m_LocalPosition: {x: -4.9200006, y: 0.8099997, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -21375,7 +21375,7 @@ MonoBehaviour:
   area1: {fileID: 774494726}
   area2: {fileID: 993645010}
   bossBarr: {fileID: 1729944478}
-  health: 500
+  health: 1000
 --- !u!1 &818995496
 GameObject:
   m_ObjectHideFlags: 0
@@ -23660,7 +23660,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 600037313}
   agroRange: 10
-  moveSpeed: 2
+  moveSpeed: 4
   character: {fileID: 600037316}
   deathEffect: {fileID: 1599559370}
   boomEffect: {fileID: 91809924}
@@ -24662,6 +24662,7 @@ RectTransform:
   - {fileID: 1788137794}
   - {fileID: 1557034921}
   - {fileID: 116834156}
+  - {fileID: 1729944477}
   - {fileID: 370888608}
   - {fileID: 1260566507}
   - {fileID: 2146035407}
@@ -24671,7 +24672,6 @@ RectTransform:
   - {fileID: 1534499381}
   - {fileID: 88101689}
   - {fileID: 947693958}
-  - {fileID: 1729944477}
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -25081,7 +25081,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 600037313}
   agroRange: 10
-  moveSpeed: 2
+  moveSpeed: 4
   character: {fileID: 600037316}
   deathEffect: {fileID: 1599559370}
   boomEffect: {fileID: 91809924}
@@ -25596,7 +25596,7 @@ RectTransform:
   - {fileID: 782174957}
   - {fileID: 449202773}
   m_Father: {fileID: 914759636}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -26775,7 +26775,7 @@ Camera:
   far clip plane: 5000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 7
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -26799,7 +26799,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 979535597}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.92, y: 0.009999871, z: -10}
+  m_LocalPosition: {x: -4.9200006, y: 0.8099997, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -29787,7 +29787,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 600037313}
   agroRange: 10
-  moveSpeed: 2
+  moveSpeed: 4
   character: {fileID: 600037316}
   deathEffect: {fileID: 1599559370}
   boomEffect: {fileID: 91809924}
@@ -31323,7 +31323,7 @@ RectTransform:
   m_Children:
   - {fileID: 162432314}
   m_Father: {fileID: 914759636}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -33665,7 +33665,7 @@ RectTransform:
   - {fileID: 1557168540}
   - {fileID: 2133953723}
   m_Father: {fileID: 914759636}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -36873,7 +36873,7 @@ RectTransform:
   - {fileID: 1481236711}
   - {fileID: 1959574523}
   m_Father: {fileID: 914759636}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -41596,7 +41596,7 @@ RectTransform:
   - {fileID: 1157792113}
   - {fileID: 337327181}
   m_Father: {fileID: 914759636}
-  m_RootOrder: 24
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
@@ -41915,7 +41915,7 @@ RectTransform:
   - {fileID: 342708651}
   - {fileID: 2085477922}
   m_Father: {fileID: 914759636}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -46285,7 +46285,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 600037313}
   agroRange: 10
-  moveSpeed: 2
+  moveSpeed: 4
   character: {fileID: 600037316}
   deathEffect: {fileID: 1599559370}
   boomEffect: {fileID: 91809924}
@@ -50111,7 +50111,7 @@ RectTransform:
   - {fileID: 1011627269}
   - {fileID: 362462388}
   m_Father: {fileID: 914759636}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}

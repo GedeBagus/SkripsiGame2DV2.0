@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Boss_Run : StateMachineBehaviour
 {
-    public float speed = 2.5f;
-	public float attackRange = 3f;
+    public float speed;
+	public float attackRange;
 
 	Transform player;
 	Rigidbody2D rb;

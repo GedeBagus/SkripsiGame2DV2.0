@@ -12,7 +12,7 @@ public class MaceMove : MonoBehaviour
     //     // rb.velocity = transform.right * speed;
     // }
 
-    float dirX, moveSpeed = 6f;
+    float dirX, moveSpeed = 5f;
 	bool moveRight = true;
 
 	// Update is called once per frame

@@ -159,10 +159,9 @@ public class Character : MonoBehaviour
     }
 
     public void UpdateHealth()
-    {
+    {     
         healthText.text = currentHealth.ToString("0");
         healthBarr.SetHealth(currentHealth);
-        
         if (currentHealth <= 0){
             dirX = 0;
             isDead = true;
@@ -184,17 +183,13 @@ public class Character : MonoBehaviour
         isHurting = true;
         rb.velocity = Vector2.zero;
         playerRifle.gameObject.SetActive(false);
-
         if (facingRight){
             rb.AddForce (new Vector2(-200f, 300f));
         }
         else{
             rb.AddForce (new Vector2(200f, 300f));
         }
-        // rb.AddForce(Vector2.up * 200f);
-
         yield return new WaitForSeconds(0.5f);
-
         isHurting = false;
     }
 
