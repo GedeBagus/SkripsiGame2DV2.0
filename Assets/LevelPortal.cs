@@ -24,7 +24,7 @@ public class LevelPortal : MonoBehaviour
             {
                 Star2.SetActive(true);
             }
-            if (ScoreLevel.scoreLevel >260)
+            if (ScoreLevel.scoreLevel >270)
             {
                 Star3.SetActive(true);
             }

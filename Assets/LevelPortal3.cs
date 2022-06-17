@@ -18,11 +18,11 @@ public class LevelPortal3 : MonoBehaviour
             // SceneManager.LoadScene(SceneLoad);
             FinishUI.SetActive(true);
             Time.timeScale = 0f;
-            if (ScoreLevel.scoreLevel >360)
+            if (ScoreLevel.scoreLevel >860)
             {
                 Star2.SetActive(true);
             }
-            if (ScoreLevel.scoreLevel >1000)
+            if (ScoreLevel.scoreLevel >1100)
             {
                 Star3.SetActive(true);
             }

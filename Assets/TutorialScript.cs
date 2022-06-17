@@ -50,7 +50,7 @@ public class TutorialScript : MonoBehaviour
             popUpIndex++;
             buttonEffect.Play();
         }
-        else if (popUpIndex == 2)
+        else if (popUpIndex == 2 && popUpIndex < popUp.Length - 1)
         {
             popUpIndex++;
             buttonEffect.Play();
@@ -65,7 +65,7 @@ public class TutorialScript : MonoBehaviour
         // sound.Play();
         // CurrentStory.SetActive(false);
         // BackStory.SetActive(true);
-        if (popUpIndex == 1)
+        if (popUpIndex == 1 )
         {
             popUpIndex--;
             buttonEffect.Play();

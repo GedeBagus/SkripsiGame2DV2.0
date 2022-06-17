@@ -43,7 +43,8 @@ public class EnemyBomb : MonoBehaviour
         deathEffect.Play();
         ScoreLevel.instance.addScore(40);
         // Instantiate(deathEffect, transform.position, Quaternion.identity);
-        rb.velocity = Vector2.zero;
+        // rb.velocity = Vector2.zero;
+        moveSpeed = 0f;
         enemyBoomberBoom.SetActive(false);
         enemyBoomberHand.SetActive(false);
         anim.SetTrigger("isDead");
@@ -95,7 +96,8 @@ public class EnemyBomb : MonoBehaviour
     {
         if (collision.CompareTag("Player") && isBooming == false)
         {
-        rb.velocity = Vector2.zero;
+        // rb.velocity = Vector2.zero;
+        moveSpeed = 0f;
         boomEffect.Play();
         enemyBoomberBoom.SetActive(false);
         enemyBoomberHand.SetActive(false);
