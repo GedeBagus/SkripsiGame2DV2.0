@@ -70,14 +70,4 @@ public class LevelManager : MonoBehaviour
         LevelPage.SetActive(false);
         buttonEffect.Play();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if(FromGame == true)
-        {
-            FirstPage.SetActive(false);
-            LevelPage.SetActive(true);
-        }
-    }
 }
