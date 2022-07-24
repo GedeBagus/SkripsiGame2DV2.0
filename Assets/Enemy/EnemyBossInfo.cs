@@ -7,32 +7,25 @@ public class EnemyBossInfo : MonoBehaviour
 {
     public GameObject EnemyUI, bossEffectUI, BossEnemy, BossEnemyHP, Area1, Area2;
     [SerializeField] private AudioSource buttonEffect;
-    void Start()
-    {
-        
-    }
-    void Update()
-    {
-        
-    }
 
     private void OnTriggerEnter2D(Collider2D collision) {
         if (collision.CompareTag("Player"))
         {
-            // Time.timeScale = 0f;
             EnemyUI.SetActive(true);
         }
     }
-
     public void Close()
     {
         buttonEffect.Play();
-        // Time.timeScale = 1f;
         EnemyUI.SetActive(false);
         Area1.SetActive(true);
         Area2.SetActive(true);
         bossEffectUI.SetActive(true);
         StartCoroutine ("UIBOSS");
+    }
+    public void url()
+    {
+        Application.OpenURL("https://corona.jakarta.go.id/id/artikel/varian-varian-covid-19-apa-perbedaannya");
     }
     IEnumerator UIBOSS()
     {
